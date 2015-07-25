@@ -21,3 +21,17 @@ ISLI VOLUNTEER Profile:
 - Each volunteer can login with username and password after which details of the classroom can be filled in
 - Previous visits details can be tracked
 - Can allot a workshop based on the performance of the leader
+- 
+
+
+
+
+
+Another Module:
+Elagg_app:
+- It contains different features like actions, notifications, views, pages, vendors which enhances the structure and functionalities of the application
+- It has the index.html page which will help the user to register and Sign in
+
+
+
+
