@@ -31,7 +31,7 @@ forward ('activity');
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1><a href="#">My Network</a></h1>
+			<!--	<h1><a href="#">My Network</a></h1>-->
 				<nav id="nav">
 					<ul>
 						<li><a href="register/">Register</a></li>
@@ -66,7 +66,7 @@ $token = generate_action_token($ts);
     
 				    <p class="clearfix">
                                       <center>
-				        <input type="submit" name="submit" value="Entrar">
+				        <input type="submit" name="submit" value="Enter">
                                           </center>
 				    </p>       
 				</form>​
@@ -83,10 +83,10 @@ $token = generate_action_token($ts);
 </h2>
 					
 					</header>
-					<span class="image featured"><img src="mod/vrawa/images/pic01.jpg" alt="" /></span>
+					<span class="image featured"><img src="/var/elggdata/isli.jpeg" alt="" /></span>
 				</section>
 						
-				<section class="box special features">
+			<!--	<section class="box special features">
 					<div class="features-row">
 						<section>
 							<span class="icon major fa-bolt accent2"></span>
@@ -128,7 +128,7 @@ $token = generate_action_token($ts);
 						</section>
 						
 					</div>
-					<div class="6u">
+					<div class="6u">-->
 
 						<section class="box special">
 							<span class="image featured"><img src="mod/vrawa/images/pic01.jpg" alt="" /></span>
@@ -148,8 +148,8 @@ $token = generate_action_token($ts);
 		<!-- CTA -->
 			<section id="cta">
 				
-				<h2>Aenean commodo ligula eget dolor. Aenean massa. In enim justo, rhoncus ut, imperdiet a?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit!</p>
+				<h4>ISLI is a non profit that trains school leaders such as principals and headmasters at NGO schools, government schools, and budget private schools. ISLI provides a two year training programme to school leaders across Mumbai, Pune, Hyderabad and Delhi. Their training includes monthly workshops followed by coaching and implementation support in the schools of participant leaders. Currently ISLI has grown to its capacity, providing training to approximately 200 principals across 4 cities.</h4>
+				
 			      
 				
 			</section>
@@ -164,7 +164,7 @@ $token = generate_action_token($ts);
 					
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Elgg . All rights reserved.</li><li>Designed by: <a href="#">Company Name Goes Here</a></li>
+					<li>&copy; India School Leadership Institute</li><li>Designed by: <a href="#">Company Name Goes Here</a></li>
 				</ul>
 			</footer>
 
