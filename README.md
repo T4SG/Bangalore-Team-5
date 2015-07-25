@@ -9,15 +9,15 @@ The project has 4 components:
 - Add-ons
 
 MODULES: 
-There are mainly 2 modules: Leader module and ISLI volunteer module
-LEADER MODULE: 
+There are mainly 2 profiles: Leader profile and ISLI volunteer profile
+LEADER Profile: 
     The leader can either login or register, after which he has the following options:
 - Alter and update priorities
 - Communicate with fellow leaders
 - Update activity of their choice to show it to the other members of the group
 - Immediately notifies ISLI team about any updates
 
-ISLI VOLUNTEER MODULE: 
+ISLI VOLUNTEER Profile: 
 - Each volunteer can login with username and password after which details of the classroom can be filled in
 - Previous visits details can be tracked
 - Can allot a workshop based on the performance of the leader
