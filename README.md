@@ -19,4 +19,4 @@ LEADER MODULE:
 
 ISLI VOLUNTEER MODULE: 
 - Each volunteer can login with username and password after which details of the classroom can be filled in
-- 
+- Previous visits details can be tracked 
