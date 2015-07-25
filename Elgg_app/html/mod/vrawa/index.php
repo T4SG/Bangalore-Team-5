@@ -79,12 +79,12 @@ $token = generate_action_token($ts);
 		
 				<section class="box special">
 					<header class="major">
-						<h2>Every school in India will be led by an effective team leader who will create quality learning opportunities that prepare children for higher education and responsible citizenship.
-</h2>
+						<h3>Every school in India will be led by an effective team leader who will create quality learning opportunities that prepare children for higher education and responsible citizenship.
+</h3>
 					
-					</header>
-					<span class="image featured"><img src="/var/elggdata/isli.jpeg" alt="" /></span>
-				</section>
+				<!--	</header>
+					<span class="image featured" width="100px" height="50px"><img src="/var/elggdata/isli.jpeg" alt="" /></span>
+				</section>-->
 						
 			<!--	<section class="box special features">
 					<div class="features-row">
@@ -128,16 +128,16 @@ $token = generate_action_token($ts);
 						</section>
 						
 					</div>
-					<div class="6u">-->
+  					<div class="6u">-->
+			
+										<section class="box special">
+					<span class="image featured"><img src="mod/vrawa/images/pic01.jpg" alt="" width="10" height="350" /></span>
 
-						<section class="box special">
-							<span class="image featured"><img src="mod/vrawa/images/pic01.jpg" alt="" /></span>
-
-							<h3>Featured Post #2</h3>
+						<!--	<h3>Featured Post #2</h3>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo...</p>
 							<ul class="actions">
 								<li><a href="#" class="button alt">Leer Más</a></li>
-							</ul>
+							</ul>-->
 						</section>
 
 					</div>
@@ -158,13 +158,13 @@ $token = generate_action_token($ts);
 			<footer id="footer">
 				<ul class="icons">
 					
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.facebook.com/schoolleadership" class="icon fa-facebook" target='_blank'><span class="label">Facebook</span></a></li>
 					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 					
 				</ul>
 				<ul class="copyright">
-					<li>&copy; India School Leadership Institute</li><li>Designed by: <a href="#">Company Name Goes Here</a></li>
+					<li>&copy; India School Leadership Institute</li><li>Designed by: <a href="#">CFG Bangalore-Team-5</a></li>
 				</ul>
 			</footer>
 
