@@ -8,3 +8,15 @@ The project has 4 components:
 - Android App
 - Add-ons
 
+MODULES: 
+There are mainly 2 modules: Leader module and ISLI volunteer module
+LEADER MODULE: 
+    The leader can either login or register, after which he has the following options:
+- Alter and update priorities
+- Communicate with fellow leaders
+- Update activity of their choice to show it to the other members of the group
+- Immediately notifies ISLI team about any updates
+
+ISLI VOLUNTEER MODULE: 
+- Each volunteer can login with username and password after which details of the classroom can be filled in
+- 
