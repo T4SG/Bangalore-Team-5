@@ -1,72 +1,86 @@
 create table program_manager
 (
-program_manager_id number, -- primary key
-manager_name varchar2(100), 
-phone_num number(12),
-address varchar2(200)
+program_manager_id int(10) primary key,
+manager_name varchar(100), 
+phone_num int(12),
+address varchar(200)
 );
 
 
 
-create table visitation
+create table ISLI_visitation
 ( 
-visitation_id number,
+visitation_id int primary key ,
 visitation_date date,
-program_manager_id number,
-class_observation_id,
-school_observation_id,
+pm_id int,
+class_observation_id int,
+school_observation_id int,
 last_visitation_date date,
+foreign key(pm_id) references program_manager(program_manager_id)
 
 );
-
 
 
 create table priorities 
-(priority_id number,--primary key
-priority_domain varchar2(50),
-priority_description(400),
-workshop_id number,--foriegn key referential integrity
-comment_id number, --foriegn key referential integrity
-
-
-
-
-);
-
-create table comments
-( comment_id number, --primary key
-  comment_description varchar2(1000),
-  priority_id number,--foreign key
-  
-  
-);
-
-create table class_observation
 (
-class_observation_id number,
-student_behaviour varchar2(1000),
-teacher_strength varchar2(1000),
-teacher_improvement varchar2(1000),
-attribute1 varchar2(1000),
-attribute2 varchar2(1000)
+priority_id int primary key,
+priority_domain varchar(50),
+priority_description varchar(400)
+
+
+);
+create table leaders_authenticate
+( 
+username varchar(100),
+password varchar(100)
 );
 
-create table school_observation
-(school_observation_id number,
-floor_description varchar2(1000),
-sanitation_description varchar2(1000),
-water_facilities varchar2(1000),
-infrastructure_description varchar2(1000),
-safety_description varchar2(1000),
-attribute1 varchar2(1000),
-attribute2 varchar2(1000)
-);
 
-create table workshop
-( workshop_id number,
-  name varchar2(100),
-  description varchar2(500),
-  leader_id number,
-  location varchar2(100),
+create table ISLI_Comments
+( comment_id int primary key,
+  comment_description varchar(1000),
+  p_id int,
+  foreign key(p_id) references priorities(priority_id)
+  
  );
+
+create table ISLI_school_observation
+(school_observation_id int primary key,
+vi_id int,
+floor_description varchar(1000),
+sanitation_description varchar(1000),
+water_facilities varchar(1000),
+infrastructure_description varchar(1000),
+safety_description varchar(1000),
+attribute1 varchar(1000),
+attribute2 varchar(1000),
+foreign key(vi_id) references ISLI_visitation(visitation_id)
+);
+
+create table ISLI_Workshop
+( workshop_id int primary key,
+  name varchar(100),
+  description varchar(500),
+  location varchar(100)
+ );
+create table ISLI_Class_Observations
+( priority_set_id integer,
+vis_id int,
+  city varchar(100),
+  school varchar(100),
+  teachers_actions varchar(100),
+  students_actions varchar(100),
+  teacher_strengths varchar(100),
+  teacher_area_of_improvement varchar(100),
+  teacher_follow_up varchar(100),
+  foreign key(vis_id) references ISLI_visitation(visitation_id)
+ );
+ 
+ create table ISLI_Enroll
+(
+	school_name varchar(100),
+	school_city varchar(100),
+	principal_name varchar(100)
+);
+ 
  
