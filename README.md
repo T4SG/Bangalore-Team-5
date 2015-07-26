@@ -37,5 +37,13 @@ ELgg_app:
 -View index.php for static webpage
 -Read install.txt for installation guidance
 
+app:
+-Contains android app code which can be rendered using webpage application
+
+Enroll.html:
+-HTML form to take user data input
+
+db_cfg.sql:
+-The schemas of the database are defined
 
 
